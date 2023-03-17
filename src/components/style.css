@@ -1,0 +1,29 @@
+table {
+    text-align: center;
+    width: 90%;
+}
+
+th,td {
+    border-bottom: 1px solid #ddd;
+    width: 350px;
+}
+
+.img {
+    width: 200px;
+    height: 200px;
+}
+
+.cartimg {
+    width: 100px;
+    height: 100px;
+}
+
+.productDiv {
+    margin-left: 20px;
+
+}
+
+#addtocart {
+    height: 100px;
+    width: 130px;
+}

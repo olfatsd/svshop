@@ -1,0 +1,107 @@
+.navbar {
+  background-color: black;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  border: 5px solid;
+  border-image: linear-gradient(45deg, orange, purple) 1;
+}
+
+.text {
+  background: linear-gradient(to right, #faa902 20%, #fa02ce 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#productsDiv {
+  display: block;
+}
+
+#cartDiv {
+  display: none;
+  justify-content: space-between;
+}
+
+#buyDiv {
+  display: none;
+}
+
+#homeLogo {
+  padding-top: 25px;
+  height: 50px;
+  width: 50px;
+}
+
+#cartLogo {
+  padding-top: 25px;
+  height: 50px;
+  width: 50px;
+}
+
+#text {
+  text-align: center;
+  background: linear-gradient(to right, #faa902 40%, #fa02ce 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.parent {
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: left;
+  border: 5px solid;
+  border-image: linear-gradient(45deg, orange, purple) 1;
+}
+
+.child1 {
+  display: inline-block;
+  padding: 1rem;
+  vertical-align: top;
+  min-width: 300px;
+  min-height: 300px;
+  font-size: 600%;
+  font-weight: bold;
+  text-align: center;
+  background: linear-gradient(to right, #faa902 20%, #fa02ce 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width:2px;
+    -webkit-text-stroke-color:black;
+}
+.child2 {
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: top;
+  min-width: 600px;
+  min-height: 500px;
+  border-left: solid black;
+}
+#total{
+  font-size: 200%;
+  font-weight: bold;
+  text-align: center;
+  background: linear-gradient(to right, #faa902 20%, #fa02ce 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+#buy{
+  position: fixed;
+	left:56.5%;
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border-radius: 12px;
+  border: 0;
+  color: #FFFFFF;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  padding: 0 1rem;
+  text-align: center;
+}
